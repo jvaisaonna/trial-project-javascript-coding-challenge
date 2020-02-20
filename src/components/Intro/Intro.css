@@ -1,0 +1,7 @@
+.Intro {
+	margin-bottom: 50px;
+}
+
+.Intro > p {
+	color: gray;
+}

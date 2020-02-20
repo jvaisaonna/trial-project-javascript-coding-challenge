@@ -1,0 +1,11 @@
+.Menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.Menu::after {
+	content: "";
+	width: 32%;
+}
