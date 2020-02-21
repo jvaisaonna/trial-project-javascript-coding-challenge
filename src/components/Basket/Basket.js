@@ -5,7 +5,6 @@ import "./Basket.css";
 function Basket() {
 	const restaurant = useContext(restaurantContext);
 	const basket = restaurant.basket;
-	console.log("Basket :", basket);
 
 	const basketItem = basket.map((item, index) => {
 		return (
