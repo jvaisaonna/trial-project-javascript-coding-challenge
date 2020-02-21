@@ -26,3 +26,45 @@
 	background-color: gray;
 	border-radius: 5px;
 }
+
+.Food-selection-container .Food-quantity > label {
+	margin-right: 5px;
+}
+
+.Food-selection-container .Food-quantity > select {
+	width: 10%;
+}
+
+.Food-selection-container .Food-quantity {
+	margin: 10px 0;
+}
+
+.Food-options {
+	margin: 20px 0;
+}
+
+.Food-options > h3 {
+	margin: 20px 0 5px;
+}
+
+.Food-options .Food-choice > input {
+	margin-right: 10px;
+}
+
+.Food-options .Food-choice {
+	margin-bottom: 10px;
+}
+
+.Food-button-group > :last-child {
+	float: right;
+}
+
+.Food-selection-container .Food-button-group > button {
+	width: 48%;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 600;
+
+	cursor: pointer;
+}

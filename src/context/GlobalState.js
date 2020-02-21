@@ -4,7 +4,7 @@ import { FOOD_LIST } from "../Global";
 import RestaurantContext from "./RestaurantContext";
 import {
 	restaurantReducer,
-	ADD_FOOD,
+	ADD_FOOD_ORDER,
 	SELECT_FOOD,
 	CANCEL_SELECT_FOOD
 } from "./Reducer";
@@ -24,8 +24,8 @@ const GlobalState = props => {
 		dispatch({ type: CANCEL_SELECT_FOOD });
 	};
 
-	const addFoodToBasket = food => {
-		dispatch({ type: ADD_FOOD, food: food });
+	const addFoodOrderToBasket = foodOrder => {
+		dispatch({ type: ADD_FOOD_ORDER, foodOrder: foodOrder });
 	};
 
 	return (
@@ -34,7 +34,7 @@ const GlobalState = props => {
 				foods,
 				basket: restaurantState.basket,
 				selectedFood: restaurantState.selectedFood,
-				addFoodToBasket: addFoodToBasket,
+				addFoodOrderToBasket: addFoodOrderToBasket,
 				selectingFood: selectingFood,
 				cancelSelectFood: cancelSelectFood
 			}}
