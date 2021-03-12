@@ -1,3 +1,6 @@
+## Description
+This is a simple online shopping cart with React.js and context features.  It included item display, modify number of items and add to cart functions.
+
 ## Available Scripts
 
 In the project directory, you can run:
